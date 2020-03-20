@@ -1,0 +1,7 @@
+redes none: no tienen acceso al mundo exterior.
+
+con el comando docker exec -it "id" /bin/ash -> ifconfig: solo tendra una red, ya que es cerrado.
+
+rede bridge:
+
+con el comando docker exec -it "id" /bin/ash -> ifconfig: tendra dos interface.
